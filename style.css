@@ -1,0 +1,190 @@
+*{
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.head{
+
+  margin-left: 20px;
+
+}
+
+.do1{
+    width: 10rem;
+    height: 10rem;
+    background-color: #fff;
+    margin-bottom: 10rem;
+}
+
+#base {
+    background: red;
+    display: inline-block;
+    height: 150px;
+    margin-left: 20px;
+    margin-top: -160px;
+    margin-bottom: 30px;
+    position: relative;
+    width: 100px;
+  }
+  #base:before {
+    border-top: 35px solid red;
+    border-right: 50px solid transparent;
+    border-left: 50px solid transparent;
+    content: "";
+    height: 0;
+    left: 0;
+    position: absolute;
+    top: 150px;
+    width: 0;
+  }
+
+
+  #base2 {
+    background: red;
+    display: inline-block;
+    height: 150px;
+    margin-left: 912px;
+    margin-top: -160px;
+    margin-bottom: 30px;
+    position: relative;
+    width: 100px;
+  }
+  #base2:before {
+    border-top: 35px solid red;
+    border-right: 50px solid transparent;
+    border-left: 50px solid transparent;
+    content: "";
+    height: 0;
+    left: 0;
+    position: absolute;
+    top: 150px;
+    width: 0;
+  }
+
+ .content12{
+  
+  height: 0;
+  position: absolute;
+  top: 15px;
+  margin-left: 25%;
+ }
+  #parallelogram {
+    width: 450px;
+    height: 100px;
+    transform: skew(-20deg);
+    background: red;
+  }
+
+  .quote-wrapper {
+    height: 300px;
+    position: relative;
+    width: 300px;
+  }
+
+  .text {
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+  }
+
+  #unlimited{
+    color: blue;
+    font-size: 5rem;
+
+  }
+
+
+  #pack{
+
+    background-color:orange;
+
+    font-size: 3rem ;
+    width: 600px;
+    margin-left: 20px;
+  }
+  .plan{
+      margin-left: 30px;
+      color: red;
+      font-size: 3.25rem;
+      width: 12rem;
+      height: 4.7rem;
+      background-color: orange;
+
+
+
+  }
+
+
+.bg1{
+    width: 400px;
+    background-color: orange;
+}
+
+.pack1{
+
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+
+
+
+
+
+}
+
+#pack5{
+  margin-bottom: 120px;
+
+}
+
+#base5 {
+  background: red;
+  display: inline-block;
+  height: 70px;
+  /* margin-left: 20px; */
+  margin-top: 55px;
+  position: relative;
+  width: 100%;
+}
+#base5:before {
+  border-bottom: 150px solid red;
+  border-left: 900px solid transparent;
+  border-right: 900px solid transparent;
+  content: "";
+  height: 0;
+  left: 0;
+  position: absolute;
+  top: -149px;
+  width: 100%;
+  margin-bottom: 500px;
+}
+
+
+
+/* html,
+body {
+  height: 100%;
+} */
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+/* Other Classes for Page Styling */
+
+
+
+.hot1{
+
+  color: #fff;
+  height: 0;
+  left: 0;
+  position: absolute;
+  top: -80px;
+  margin-left: 40%;
+
+
+}
