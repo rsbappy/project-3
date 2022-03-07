@@ -151,8 +151,8 @@
 }
 #base5:before {
   border-bottom: 150px solid red;
-  border-left: 900px solid transparent;
-  border-right: 900px solid transparent;
+  border-left: 500px solid transparent;
+  border-right: 500px solid transparent;
   content: "";
   height: 0;
   left: 0;
@@ -169,9 +169,7 @@ body {
   height: 100%;
 } */
 
-#page-content {
-  flex: 1 0 auto;
-}
+
 
 /* Other Classes for Page Styling */
 
@@ -183,8 +181,11 @@ body {
   height: 0;
   left: 0;
   position: absolute;
-  top: -80px;
-  margin-left: 40%;
+  top: -100px;
+  margin-left: 32%;
 
 
+}
+.container{
+  width: 100%;
 }
